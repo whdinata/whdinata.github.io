@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+  <title>j</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+  <script src="parse.js"></script>
+  <script src="fb.js"></script>
+  <link href="style/myStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="initParse()">
+<div class="head">
+<div class="logosmall"><img src="img/Name.png" style="width:100px; position:relative;"/></div>
+<div class="welcome"><img src="img/fake profile.jpg" style="width:30px;"/> Welcome Panda!</div>
+<div class="clear"></div>
+<div class="content">
+ <div id="statusPost">
+ <form role="form">
+    <div class="form-group" >
+      <input type="text" class="form-control" id="status" placeholder="What's on your mind?">
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="postToFB()">Post</button>
+  </form>
+ </div>
+</div>
+</body>
+</html>
+

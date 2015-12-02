@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+	color: #003;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.logo{
+	text-align:center;
+	margin: 50px 0px;
+}
+.logosmall{
+	position:relative;
+	float:left;
+	margin: 10px;
+}
+.loginButton{
+	background-color: #073372;
+	color:#FFF;
+	font-size: inherit;	
+}
+.container{
+	text-align:center;
+}
+.content{
+	position:relative;
+	float:left;
+	margin:10px;
+	width: 90%;
+}
+.head{
+	background-color: #e9eaed;
+	position:relative;
+	float:left;
+	width:100%;
+}
+.labels{
+	position:relative;
+	float:left；
+}
+.new-group{
+	
+}
+.exit-group{
+	margin-top:10px;
+}
+.welcome{
+	position:relative;
+	float:right;
+	margin:20px;
+	color:#073372;
+}
+.panelImg{
+	float:left;
+}
+.panelName{
+	font-size:16px;
+	font-weight:bold;
+	color: #073372;
+	margin:0px 50px;
+}
+.panelTime{
+	font-size:14px;
+	color: #666;
+	margin:0px 50px;
+}
+.clear{clear:both;}
