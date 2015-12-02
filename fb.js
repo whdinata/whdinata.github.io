@@ -93,7 +93,7 @@ function getUserData() {
 			//window.location.assign("http://ec2-54-77-150-48.eu-west-1.compute.amazonaws.com/join.html");
 		} else{
 			document.cookie = "fakeUserId=" + response.id;
-			window.location.assign("http://ec2-54-77-150-48.eu-west-1.compute.amazonaws.com/realinfo.html");
+			window.location.assign("http://whdinata.github.io/realinfo.html");
 		}
     	});
 }
